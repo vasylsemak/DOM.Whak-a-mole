@@ -18,7 +18,6 @@ document.getElementById('whack-a-mole').addEventListener('click', event => {
   if (score === 6) {
     let won = document.getElementById('won');
     won.innerText = 'YOU WON A PRIZE!!!';
-    // bodyO.appendChild(uWin).innerText = 'YOU WON A PRIZE!!!';
 
     setTimeout(() => {
       score = 0;
